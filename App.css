@@ -1,0 +1,61 @@
+/* Tailwind.css */
+
+.text-center {
+  text-align: center;
+}
+
+.h-40vmin {
+  height: 40vmin;
+}
+
+.pointer-events-none {
+  pointer-events: none;
+}
+
+.animate-spin {
+  @keyframes spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  animation: spin infinite 20s linear;
+}
+
+.bg-app-header {
+  background-color: #282c34;
+}
+
+.min-h-screen {
+  min-height: 100vh;
+}
+
+.flex {
+  display: flex;
+}
+
+.flex-col {
+  flex-direction: column;
+}
+
+.items-center {
+  align-items: center;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.text-white {
+  color: white;
+}
+
+.text-blue-500 {
+  color: #61dafb;
+}
+
+.text-xl {
+  font-size: 10px;
+}
